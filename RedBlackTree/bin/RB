@@ -1,0 +1,249 @@
+10
+85
+15
+70
+20
+60
+30
+50
+65
+80
+90
+40
+5
+55
+
+Red Black Tree is:
+Level 1  15, black  
+Level 2  10,red  85,red  
+Level 3  0, black  0, black  0, black  0, black  
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation: insert 70
+Insertion successfull.
+Red Black Tree after the insert 70 operation is: 
+Level 1  15, black  
+Level 2  10, black  85, black  
+Level 3  0, black  0, black  70,red  0, black  
+Level 4      0, black  0, black    
+Height of the Red Black tree after the insert 70 operation is: 2
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 20
+Insertion successfull.
+Red Black Tree after the insert 20 operation is: 
+Level 1  15, black  
+Level 2  10, black  70, black  
+Level 3  0, black  0, black  20,red  85,red  
+Level 4      0, black  0, black  0, black  0, black  
+Height of the Red Black tree after the insert 20 operation is: 2
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 60
+Insertion successfull.
+Red Black Tree after the insert 60 operation is: 
+Level 1  15, black  
+Level 2  10, black  70,red  
+Level 3  0, black  0, black  20, black  85, black  
+Level 4      0, black  60,red  0, black  0, black  
+Level 5            0, black  0, black      
+Height of the Red Black tree after the insert 60 operation is: 3
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 30
+Insertion successfull.
+Red Black Tree after the insert 30 operation is: 
+Level 1  15, black  
+Level 2  10, black  70,red  
+Level 3  0, black  0, black  30, black  85, black  
+Level 4      20,red  60,red  0, black  0, black  
+Level 5          0, black  0, black  0, black  0, black      
+Height of the Red Black tree after the insert 30 operation is: 3
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 50
+Insertion successfull.
+Red Black Tree after the insert 50 operation is: 
+Level 1  30, black  
+Level 2  15,red  70,red  
+Level 3  10, black  20, black  60, black  85, black  
+Level 4  0, black  0, black  0, black  0, black  50,red  0, black  0, black  0, black  
+Level 5          0, black  0, black        
+Height of the Red Black tree after the insert 50 operation is: 3
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 65
+Insertion successfull.
+Red Black Tree after the insert 65 operation is: 
+Level 1  30, black  
+Level 2  15,red  70,red  
+Level 3  10, black  20, black  60, black  85, black  
+Level 4  0, black  0, black  0, black  0, black  50,red  65,red  0, black  0, black  
+Level 5          0, black  0, black  0, black  0, black      
+Height of the Red Black tree after the insert 65 operation is: 3
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 80
+Insertion successfull.
+Red Black Tree after the insert 80 operation is: 
+Level 1  30, black  
+Level 2  15,red  70,red  
+Level 3  10, black  20, black  60, black  85, black  
+Level 4  0, black  0, black  0, black  0, black  50,red  65,red  80,red  0, black  
+Level 5          0, black  0, black  0, black  0, black  0, black  0, black    
+Height of the Red Black tree after the insert 80 operation is: 3
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 90
+Insertion successfull.
+Red Black Tree after the insert 90 operation is: 
+Level 1  30, black  
+Level 2  15,red  70,red  
+Level 3  10, black  20, black  60, black  85, black  
+Level 4  0, black  0, black  0, black  0, black  50,red  65,red  80,red  90,red  
+Level 5          0, black  0, black  0, black  0, black  0, black  0, black  0, black  0, black  
+Height of the Red Black tree after the insert 90 operation is: 3
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 40
+Insertion successfull.
+Red Black Tree after the insert 40 operation is: 
+Level 1  30, black  
+Level 2  15, black  70, black  
+Level 3  10, black  20, black  60,red  85, black  
+Level 4  0, black  0, black  0, black  0, black  50, black  65, black  80,red  90,red  
+Level 5          40,red  0, black  0, black  0, black  0, black  0, black  0, black  0, black  
+Level 6                  0, black  0, black                
+Height of the Red Black tree after the insert 40 operation is: 4
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 5
+Insertion successfull.
+Red Black Tree after the insert 5 operation is: 
+Level 1  30, black  
+Level 2  15, black  70, black  
+Level 3  10, black  20, black  60,red  85, black  
+Level 4  5,red  0, black  0, black  0, black  50, black  65, black  80,red  90,red  
+Level 5  0, black  0, black        40,red  0, black  0, black  0, black  0, black  0, black  0, black  0, black  
+Level 6                  0, black  0, black                
+Height of the Red Black tree after the insert 5 operation is: 4
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : insert 55
+Insertion successfull.
+Red Black Tree after the insert 55 operation is: 
+Level 1  30, black  
+Level 2  15, black  70, black  
+Level 3  10, black  20, black  60,red  85, black  
+Level 4  5,red  0, black  0, black  0, black  50, black  65, black  80,red  90,red  
+Level 5  0, black  0, black        40,red  55,red  0, black  0, black  0, black  0, black  0, black  0, black  
+Level 6                  0, black  0, black  0, black  0, black              
+Height of the Red Black tree after the insert 55 operation is: 4
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : min
+Minimum node value is: 5
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : max
+Maximum node value is: 90
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : sort
+The RB tree in Sorted Order : 
+5  10  15  20  30  40  50  55  60  65  70  80  85  90  
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : search 45
+Node having value 45 does not exists in this RB Tree
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : search 90
+Node having value 90 exists in this RB Tree
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : predecessor 40
+Predecessor of 40 is 30
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : predecessor 5
+No predecessor node exists.
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : successor 30
+Successor of 30 is 40
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : delete 60
+Deletion successfull.
+Red Black Tree after the delete 60 operation is: 
+Level 1  30, black  
+Level 2  15, black  70, black  
+Level 3  10, black  20, black  50,red  85, black  
+Level 4  5,red  0, black  0, black  0, black  40, black  65, black  80,red  90,red  
+Level 5  0, black  0, black        0, black  0, black  55,red  0, black  0, black  0, black  0, black  0, black  
+Level 6                      0, black  0, black            
+Height of the Red Black tree after the delete 60 operation is: 4
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : delete 30
+Deletion successfull.
+Red Black Tree after the delete 30 operation is: 
+Level 1  40, black  
+Level 2  15, black  70, black  
+Level 3  10, black  20, black  55,red  85, black  
+Level 4  5,red  0, black  0, black  0, black  50, black  65, black  80,red  90,red  
+Level 5  0, black  0, black        0, black  0, black  0, black  0, black  0, black  0, black  0, black  0, black  
+Height of the Red Black tree after the delete 30 operation is: 3
+Please enter one of the following specified operations:
+sort, search x, min, max, leftrotate x, rightrotate x, successor x, predecessor x, insert x, delete x and exit.
+Please enter the operation : 
+
+
+/**
+ *
+ * 
+ * PreFlow:
+ * 1) 0 <= f(e) <= c(e)
+ * 2) For all V, Sum (f(e)) incoming >= Sum (f(e)) outgoing : Preflow 
+ *    Hence, flow is maximum when Sum (f(e)) incoming = Sum (f(e)) outgoing
+ * 3) e f(v) = Sum (f(e)) incoming - Sum (f(e)) outgoing : Excess
+ * 4) h(v) >= 0, Height of each vertex
+ * 5) A s-t preflow f and labeling h are compatible if:
+ *      i)   h(t) = 0
+ *      ii)  h(s) = n (Number of nodes)
+ *      iii) For all (v,w) in Ef (in the residual graph) h(v) <= h(w) + 1 
+ * 6) If f is an s-t preflow and h is compatible with f then there is no s-t path in Gf ie residual graph
+ * 7) Functions:
+ *    push (f,h,v,w)
+ *      if ef(v) > 0 and h(w) < h(v) and (v,w) is a residual edge      //if v has excess get rid of the excess
+ *          Two cases:
+ *          1.  E(v,w) is a forward edge:
+ *                  df = min ( ef(v) , c(e) - f(e) )   // push out entrie excess or the amt that is there whichever is smaller
+ *                  increase f(e) by df
+ *          2. E(v,w) is a backward edge:
+ *                  df = min ( ef(v) , f(e) )
+ *                  decrease f(e) by df
+ *      return (f,h)
+ * 
+ * 
+ *    relabel(f,h,v)
+ *      if ef(v) > 0 and for all (v,w) in Ef h(w) >= h(v)
+ *          h(v) = h(v) + 1
+ *      return (f,h)
+ * 8) Algorithm:
+ *      Initialize h(v) = 0 for all v != s
+ *                 h(s) = n
+ *                 f(e) = c(e) , for any e = (s,v)
+ *                 f(e) = 0    , otherwise
+ *      while there exists v != t such that ef(v) > 0      // Node has excess
+ *          if there exists a w such that push(f,h,v,w) is possible
+ *              push(f,h,v,w)
+ *          else
+ *              relabel(f,h,v)
+ *      return f
+ * 
+ * In short any node that as excess try to do something about it. Either push ahead or behind 
+ * OR
+ * relabel if you cant push it anywhere
+ */
