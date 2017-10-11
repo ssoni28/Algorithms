@@ -18,6 +18,7 @@ ompiled class file
 *.tar.gz
 *.rar
 
+*.classpath
 *.project
 *.settings/
 *.metadata/
